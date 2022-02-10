@@ -1,0 +1,24 @@
+{
+  "name": "task-list",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "style": "stylus -w ./src/assets/style.styl -o ./src/assets/style.css",
+    "backend": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "json-server": "^0.17.0",
+    "stylus": "^0.56.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "stylus-loader": "^6.2.0"
+  }
+}
